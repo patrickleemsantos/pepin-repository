@@ -4217,20 +4217,25 @@ html.with-statusbar-overlay .popup.tablet-fullscreen {
 }
 body.with-panel-left-cover .panel,
 body.with-panel-right-cover .panel {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: none !important;
+  overflow: visible;
+  /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);*/
 }
 body.with-panel-left-cover .views,
 body.with-panel-right-cover .views {
+  box-shadow: none !important;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 body.with-panel-left-cover .panel-overlay,
 body.with-panel-right-cover .panel-overlay {
+  box-shadow: none !important;
   display: block;
   opacity: 1;
 }
 body.with-panel-left-reveal .views,
 body.with-panel-right-reveal .views {
+  box-shadow: none !important;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
@@ -4240,31 +4245,38 @@ body.with-panel-right-reveal .views {
 }
 body.with-panel-left-reveal .panel-overlay,
 body.with-panel-right-reveal .panel-overlay {
+  box-shadow: none !important;
   background: rgba(0, 0, 0, 0);
   display: block;
   opacity: 0;
 }
 body.with-panel-left-reveal .views {
+  box-shadow: none !important;
   -webkit-transform: translate3d(260px, 0, 0);
   transform: translate3d(260px, 0, 0);
 }
 body.with-panel-left-reveal .panel-overlay {
+  box-shadow: none !important;
   -webkit-transform: translate3d(260px, 0, 0);
   transform: translate3d(260px, 0, 0);
 }
 body.with-panel-left-cover .panel-left {
+  box-shadow: none !important;
   -webkit-transform: translate3d(260px, 0, 0);
   transform: translate3d(260px, 0, 0);
 }
 body.with-panel-right-reveal .views {
+  box-shadow: none !important;
   -webkit-transform: translate3d(-260px, 0, 0);
   transform: translate3d(-260px, 0, 0);
 }
 body.with-panel-right-reveal .panel-overlay {
+  box-shadow: none !important;
   -webkit-transform: translate3d(-260px, 0, 0);
   transform: translate3d(-260px, 0, 0);
 }
 body.with-panel-right-cover .panel-right {
+  box-shadow: none !important;
   -webkit-transform: translate3d(-260px, 0, 0);
   transform: translate3d(-260px, 0, 0);
 }
