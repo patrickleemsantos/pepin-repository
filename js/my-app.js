@@ -5,7 +5,10 @@ var myApp = new Framework7({
     material: true,
     cache: true,
     materialRipple: true,
-    scrollTopOnNavbarClick: true
+    scrollTopOnNavbarClick: true,
+    fastClicks: true,
+    pushState: true,
+    swipePanelOnlyClose: 'left'
 });
 
 // Expose Internal DOM library
